@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Header styling*/
+header{
+    background-color:rgb(29, 125, 163);
+    color: white;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+/*Search container and results styling*/
+.container{
+    width: 50%;
+    margin: auto;
+}
+
+/*Search container styling*/
+.search-container{
+    display: flex;
+}
+
+
+input{
+    width: 500px;
+    padding: 10px;
+    font-size: 17px;
+}
+
+button{
+    color: white;
+    font-style: bold;
+    font-family: Arial;
+    padding: 14px 30px;
+    background-color:red;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+button:hover{
+    background-color:lightblue;
+}
+
+/*Result border styling*/
+.result-border{
+    display: flex;
+    padding: 2px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.4);
+}
+
+

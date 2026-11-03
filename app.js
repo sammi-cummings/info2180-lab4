@@ -18,7 +18,7 @@ window.onload = function(){
         fetch(url).then(function(response){
             return response.text();
         }).then(function(data){
-            alert(data);
+            document.getElementById("results").innerHTML = data;
         })
         .catch(function(error){
             console.log(error);
